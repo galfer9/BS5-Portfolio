@@ -14,6 +14,12 @@
 		<title>Portfolio Website</title>
 		<style>
 			.active {color: red !important;}
+			img {
+				width: 350px;
+				height: 200px;
+				object-fit: cover;
+			
+			};
 			/* !important는 부트스트랩이 원래 css보다 우선순위 높은데 이 표시한곳은 우선순위가 더 높아짐. */
 		</style>
 		<!-- 부트스트랩외 css필요시 위에 넣어줌 -->
@@ -135,15 +141,15 @@
 								</button>
 							</div>
 							<div class="position=relative">
-								<div class="carousel-inner w-50 position=absolute">
-									<div class="carousel-item active w-100">
-										<img src="image/6.jpg" class="d-block " alt="...">
+								<div class="carousel-inner position=absolute">
+									<div class="carousel-item active" >
+										<img src="image/6.jpg" class="d-block" alt="...">
 									</div>
 									<div class="carousel-item">
-										<img src="image/4.jpg" class="d-block w-100" alt="...">
+										<img src="image/4.jpg" class="d-block" alt="...">
 									</div>
 									<div class="carousel-item">
-										<img src="img/5.jpg" class="d-block w-100" alt="...">
+										<img src="image/5.jpg" class="d-block" alt="...">
 									</div>
 									<button class="carousel-control-prev position=absolute" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
