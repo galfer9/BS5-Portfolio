@@ -12,6 +12,6 @@
 + 깃허브 페이지 사용해서 배포(Deploy)함.
 
 이미지갤러리배포
-[배포](https://galfer9.github.io/ImageGallery/)
+[배포](https://github.com/galfer9/BS5-Portfolio.git/)
 
 
