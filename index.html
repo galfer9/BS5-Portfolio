@@ -13,12 +13,18 @@
 
 		<title>Portfolio Website</title>
 		<style>
-			.active {color: red !important;}
-			img {
-				width: 350px;
-				height: 200px;
+			.active {color: red !important; }
+			#portfolio img {
+				width: 400px;
+				height: 250px;
 				object-fit: cover;
 			
+			};
+
+			#암기연습 img {
+				width: 100px;
+				height: 100px;
+				object-fit: cover;
 			};
 			/* !important는 부트스트랩이 원래 css보다 우선순위 높은데 이 표시한곳은 우선순위가 더 높아짐. */
 		</style>
@@ -201,21 +207,20 @@
 			  </section>
 			  <!-- 포트폴리오섹션 끝 -->
 			   <!-- 모달창 연습문제 시작 -->
-			   <section id="버튼형연습문제" class="bg-dark py-5">
+			   <section id="버튼형연습문제" class="bg-dark py-5  flex-row d-flex justify-content-center  align-items-center">
 				<button type="button" class="btn btn-primary ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-					모달열기버튼
+					사회문제1
 				</button>
 				<!-- 자동 안보이는 모달창 -->
 				  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="example" aria-hidden="true">
 					<div class="modal-dialog">
 					  <div class="modal-content">
 						<div class="modal-header">
-						  <h1 class="modal-title fs-5" id="example">Modal title header area 주로 닫기버튼 들어감.</h1>
+						  <h1 class="modal-title fs-5" id="example">사회문제 1</h1>
 						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
-						  안녕하세요. 초중등학습룸에 오신걸 환영합니다. 실제 내용 들어가는 부분은
-						  헤더,바디,푸터입니다.
+						  안녕하세요. 초중등학습룸에 오신걸 환영합니다. 실제 세종대왕은 어느시대때 왕입니까? 예)조선시대, 고려시대, 신라시대
 						</div>
 						<div class="modal-footer">
 						  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> <!--data-bs-dismiss="닫을 창" 닫기 버튼-->
